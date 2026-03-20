@@ -43,8 +43,8 @@ To address the problem, the following steps were taken:
 
 1. Data Integration: Merging invoice history with client profiles to create a comprehensive view of each user.
 2. Feature Engineering: Creating new metrics, such as the average consumption per month and the frequency of "bad" reading remarks.
-3. Handling Imbalance: Since fraud is much rarer than normal usage, techniques like oversampling or specialized loss functions were used to ensure the model catches fraudulent cases effectively.
-4. Modeling: Utilizing gradient-boosted decision trees (like XGBoost or LightGBM) to handle the mixed categorical and numerical data.
+3. Handling Imbalance: Since fraud is much rarer than normal usage, estimation techniques like Recall have been considered
+4. Modeling: Utilizing gradient-boosted decision trees (like XGBoost) to handle the mixed categorical and numerical data.
 
 
 ---
